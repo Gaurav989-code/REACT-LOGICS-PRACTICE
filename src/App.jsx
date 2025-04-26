@@ -5,6 +5,9 @@ import Multi_step_form from "./components/multi-step-form/Multi_step_form";
 import ShoppingList from "./components/shopping/shoppingList";
 import UndoableCounter from "./components/undoable/UnduableCounter";
 import Tic_toc_toe from "./components/tic-toc-toe/Tic_toc_toe";
+import ImageCarousel from "./components/imageCarousel/ImageCarousel";
+import Code_Input from "./components/two-factor-code-input/Code_Input";
+import Simple_Calculator from "./components/simple-calculator/Calculator";
 
 function App() {
   return (
@@ -16,15 +19,13 @@ function App() {
       <UndoableCounter />
       <ShoppingList />
       <Multi_step_form />
+      <Tic_toc_toe />
+      <ImageCarousel />
+      <Code_Input />
       
       */}
-      <Tic_toc_toe />
 
-
-
-
-
-
+      <Simple_Calculator />
     </>
   );
 }

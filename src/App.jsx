@@ -11,10 +11,17 @@ import Simple_Calculator from "./components/simple-calculator/Calculator";
 import Bar_Chart from "./components/bar-chart/Bar_Chart";
 import Star_Rating from "./components/star-rating/Star_Rating";
 import Task_manager from "./components/task-manager/Task_manager";
+import Memory_Game from "./components/memory-game/Memory_Game";
+import Infinite_Scrolling from "./components/infinite-scrolling/Infinite_Scrolling";
+import ProgressBar from "./components/progressBar/ProgressBar";
+import Selectable_Grid from "./components/selectable-grid/Selectable_Grid";
+import Debounce_api_call from "./components/debounce-api-call/Debounce_api_call";
+import Job_board from "./components/job-board/Job_board";
+import TimePass_grid from "./components/Timepass_grid";
 
 function App() {
   return (
-    <>
+    <div className="w-[100vw] min-h-[100vh] flex flex-col items-center  ">
       {/* <h1>Frequently asked questions</h1>
       <FAQComponent /> 
       <Calculator />
@@ -28,11 +35,22 @@ function App() {
       <Simple_Calculator />
       <Bar_Chart />
       <Star_Rating />
-      
-      */}
       <Task_manager />
+      <Memory_Game />
+      <Infinite_Scrolling />
+      <ProgressBar color={"red"} />
+      <ProgressBar color={"yellow"} />
+      <Selectable_Grid />
+      <Debounce_api_call />
+      <Job_board />
+      
+      <TimePass_grid />
+      */}
 
-    </>
+
+
+
+    </div>
   );
 }
 

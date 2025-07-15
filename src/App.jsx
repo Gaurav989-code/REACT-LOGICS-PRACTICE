@@ -18,6 +18,8 @@ import Selectable_Grid from "./components/selectable-grid/Selectable_Grid";
 import Debounce_api_call from "./components/debounce-api-call/Debounce_api_call";
 import Job_board from "./components/job-board/Job_board";
 import TimePass_grid from "./components/Timepass_grid";
+import Transfer_Files from "./components/Transfer-File/Transfer_Files";
+import Form_Validation from "./components/form_validation/Form_Validation";
 
 function App() {
   return (
@@ -45,11 +47,10 @@ function App() {
       <Job_board />
       
       <TimePass_grid />
+      <Transfer_Files />
       */}
 
-
-
-
+      <Form_Validation />
     </div>
   );
 }
